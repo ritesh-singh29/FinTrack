@@ -16,4 +16,4 @@ df=pd.DataFrame(data)
 print(df)
 # Total monthly expense
 print(df.groupby("Month")["Amount"].sum().reset_index())
-
+# Which Category eats most of the money?
